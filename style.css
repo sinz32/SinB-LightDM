@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "NanumGothic";
+    src: url("./fonts/NanumGothic.otf");
+    font-weight: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: NanumGothic;
+    color: white;
+    background: #EEE;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('./images/background.jpg');
+    font-size: 32px;
+}
+
+div.title {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #212121AA;
+    text-align: right;
+    font-size: 18px;
+}
+div.title > div {
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px;
+    right: 0;
+}
+
+.dropdown-content div {
+    color: black;
+    display: block;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+
+div.body {
+    height: 100%;
+}
+
+div.profile {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    background-color: #EEEEEEAA;
+    border-radius: 16px;
+    padding: 32px;
+    color: black;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 16px;
+}
+
+img#user_image {
+    width: 160px;
+}
+
+input#user_pw {
+    width: 240px;
+    margin: 0px;
+    display: block;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+input::placeholder {
+    color: #616161;
+    font-size: 28px;
+}
+
+div#user_list {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px;
+    left: 0;
+}

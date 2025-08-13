@@ -1,0 +1,6 @@
+[theme]
+name=SinB
+description=GFRIEND SinB lightdm theme by SinZ for nody-greeter
+engine=lightdm-nody-greeter
+url=index.html
+session=fluxbox
