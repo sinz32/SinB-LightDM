@@ -20,3 +20,28 @@ greeter:
     icon_theme:
     time_language:
 ```
+
+***
+
+# GFRIEND/VIVIZ SinB LightDM Theme
+© 2023-2025 SinZ, All rights reserved.
+
+## How to use?
+
+- Install [lightdm-nody-greeter](https://github.com/JezerM/nody-greeter) first
+- Clone this `repository` and movt it to `/usr/share/web-greeter/themes/`.
+```sh
+$ git clone https://github.com/sinz32/SinB-lightdm-theme/
+$ sudo mv SinB-lightdm-theme /usr/share/web-greeter/themes/
+```
+- Open `/etc/lightdm/web-greeter.yml` and write the theme's name in the `theme: ???` section.
+```yml
+greeter:
+    debug_mode: False
+    detect_theme_errors: True
+    screensaver_timeout: 0
+    secure_mode: True
+    theme: SinB-lightdm-theme
+    icon_theme:
+    time_language:
+```
