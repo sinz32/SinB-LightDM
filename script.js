@@ -12,7 +12,7 @@ window.addEventListener('load', (e) => setTimeout(() => {
         src += '<div onclick=\'selectUser(' + n + ');\'>' + lightdm.users[n].display_name + '</div>'
     }
     document.getElementById('user_list').innerHTML = src;
-    selectUser(0);
+    selectUser(4);
     document.getElementById('user_pw').focus();
 }, 100));
 
