@@ -27,7 +27,7 @@ if (!window.lightdm) {
 	];
 
 	lightdm.users = [
-		{ username: 'sowan', display_name: 'Sowan', image :'images/sowan.jpg', session: 'gnome' },
+		{ username: 'sowon', display_name: 'Sowon', image :'images/sowon.jpg', session: 'gnome' },
 		{ username: 'yerin', display_name: 'Yerin', image :'images/yerin.jpg', session: 'plasma' },
 		{ username: 'eunha', display_name: 'Eunha', image :'images/eunha.jpg', session: 'cinnamon' },
 		{ username: 'yuju', display_name: 'Yuju', image :'images/yuju.jpg', session: 'xfce' },
