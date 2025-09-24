@@ -43,7 +43,7 @@ greeter:
 ## How to use?
 
 - Install [lightdm-nody-greeter](https://github.com/JezerM/nody-greeter) first
-- Clone this `repository` and movt it to `/usr/share/web-greeter/themes/`.
+- Clone this `repository` and move it to `/usr/share/web-greeter/themes/`.
 ```sh
 $ git clone https://github.com/sinz32/SinB-LightDM
 $ sudo mv SinB-LightDM /usr/share/web-greeter/themes/
