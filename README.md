@@ -27,7 +27,7 @@ greeter:
     time_language:
 ```
 -  `LightDM`이 `nody-greeter`를 `greeter`로 사용하도록 설정
-- "/etc/lightdm/lightdm.conf" 파일을 수정해서 nody-greeter를 사용하도록 설정해주세요.
+- `/etc/lightdm/lightdm.conf` 파일을 수정해서 nody-greeter를 사용하도록 설정해주세요.
 - 앞에 적힌 #이 주석을 의미하니, greeter-session=lightdm-gtk-greeter 앞에 #을 붙여서 주석처리하고, greeter-session=nody-greeter 앞에 있는 #을 지워서 주석을 해제하면 돼요.
 
 ## 로그인 버튼 어디갔나요?
@@ -59,7 +59,7 @@ greeter:
     icon_theme:
     time_language:
 ```
-- Configure `LightDM` to use `nody-greeter` as its `greeter`
+- Configure `LightDM` to use `nody-greeter` as its `greeter` via editing `/etc/lightdm/lightdm.conf` file.
 
 ## How to Login?
 - Press `Enter` key on your keyboard after input password
